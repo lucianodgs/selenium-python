@@ -4,7 +4,7 @@ import time
 
 print("Iniciando nosso Robô ... \n")
 
-driver = webdriver.Chrome(r"C:\Users\a0044443\PycharmProjects\RPA-Python2\venv\chromedriver.exe")
+driver = webdriver.Chrome(r"..\chromedriver.exe")
 
 usuario = ""
 pass_pwd = ""
