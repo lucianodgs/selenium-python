@@ -6,12 +6,12 @@ print("Iniciando nosso Robô ... \n")
 
 driver = webdriver.Chrome(r"C:\Users\a0044443\PycharmProjects\RPA-Python2\venv\chromedriver.exe")
 
-usuario = "a0044443"
+usuario = ""
 pass_pwd = ""
 
 
 
-driver.get("https://10.238.5.28/ui/login.action")
+driver.get("https://xx.xx.xx.xx/ui/login.action")
 driver.fullscreen_window()
 
 box_dominio =  driver.find_element_by_id("authSelector-inputEl")
@@ -31,7 +31,7 @@ box_pwd.send_keys(Keys.ENTER)
 time.sleep(6)
 print("Login realizado...")
 
-driver.get("https://10.238.5.28/ui/index.action#/environment/overview/applications")
+driver.get("https://xx.xx.xx.xx/ui/index.action#/environment/overview/applications")
 
 bot1 = driver.find_element_by_id("ext-element-1")
 bot1.click()
